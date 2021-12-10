@@ -4,9 +4,10 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator, createAppContainer } from "@react-navigation/stack";
 // import 'react-native-gesture-handler';
 import SplashScreen from './components/splash';
-import Splash2Screen from './components/splash2';
+// import Splash2Screen from './components/splash2';
 
 const Stack = createStackNavigator();
+
 
 export default function App() {
   return (
