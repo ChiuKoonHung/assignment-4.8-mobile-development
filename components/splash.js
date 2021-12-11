@@ -24,11 +24,11 @@ const styles = StyleSheet.create({
 export default SplashScreen =  ({ navigation }) => (
   <View style={styles.container}>
     <Image source={splash}></Image>
-    {/* <Button
+    <Button
       style={styles.button}
       title="Next"
       onPress={() => navigation.navigate("splash2-screen")}    
-    ></Button> */}
+    ></Button>
   </View>
 );
 
